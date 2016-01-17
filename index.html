@@ -2,14 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link type="text/css" href="css/light-switch.css" rel="stylesheet" media="all" />
     <link type="text/css" href="css/main.css" rel="stylesheet" media="all" />
+    <link type="text/css" href="css/reset.css" rel="stylesheet" media="all" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,200' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <title>Title</title>
 </head>
 <body>
-    <div class="align-container">
+    <div id="switch" class="on"></div>
+
+    <div id="landing-container" class="align-container">
+
         <div class="name"><span class="first-name">Jefferson</span> <span class="last-name">Teng</span></div>
-        <img class="arrow" src="img/down-arrow.png">
+        <a id="arrow"></a>
     </div>
+
+    <div class="align-container">
+        <h1>Second page</h1>
+    </div>
+
+    <script src="js/events.js"></script>
 </body>
 </html>
