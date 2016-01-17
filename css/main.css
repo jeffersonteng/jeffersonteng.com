@@ -1,0 +1,20 @@
+.align-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 7vh;
+}
+
+.first-name {
+    font-weight: 700;
+}
+
+.last-name {
+    font-weight: 200;
+}
