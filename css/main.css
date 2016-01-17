@@ -22,5 +22,8 @@
 }
 
 .arrow {
+    margin-top: 2vh;
+    height: 10vh;
+    width: auto;
     display: block;
 }
