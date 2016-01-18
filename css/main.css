@@ -91,3 +91,9 @@
     right: 2.6vh;
     top: 192vh;
 }
+
+@media only screen and (max-device-width: 480px) {
+    #email {
+        top: 190vh;
+    }
+}
