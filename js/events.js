@@ -21,6 +21,13 @@ function addEvents() {
             $(".moon").css("visibility", "hidden");
         }
     });
+
+    $('#arrow').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
 };
 
 addEvents();
