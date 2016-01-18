@@ -6,6 +6,7 @@
     position: absolute;
     top: 3vh;
     right: 3vh;
+    animation: bounce 1s infinite;
 }
 
 .moon {
@@ -17,4 +18,27 @@
     top: 2.625vh;
     right: 3.7vh;
     visibility: hidden;
+}
+
+@keyframes bounce {
+    0% {
+        background-position: 50% calc(50% - 4em), 50% calc(50% + .4em);
+        background-size: 2em 2em, 1em 1em;
+    }
+    40% {
+        background-position: 50% 50%, 50% calc(50% + .3em);
+        background-size: 2em 2em, 3em 1em;
+    }
+    45% {
+        background-position: 50% 50%, 50% calc(50% + .3em);
+        background-size: 2em 1.5em, 3em 1em;
+    }
+    50% {
+        background-position: 50% 50%, 50% calc(50% + .3em);
+        background-size: 2em 1em, 3em 1em;
+    }
+    100% {
+        background-position: 50% calc(50% - 4em), 50% calc(50% + .3em);
+        background-size: 2em 2em, 1em 1em;
+    }
 }

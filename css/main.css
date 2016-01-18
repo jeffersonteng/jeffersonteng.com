@@ -57,3 +57,25 @@
 #arrow.night {
     background-image: url("../img/down-arrow-white.png");
 }
+
+h1.thanks {
+    font-size: 7vh;
+    color: white;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    margin: 1vh;
+}
+
+#second-container.night {
+    background: #2c3e50;
+    /*background: #343434;*/
+}
+
+.icon-container {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+}
