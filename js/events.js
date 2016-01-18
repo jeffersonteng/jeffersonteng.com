@@ -9,11 +9,13 @@ function addEvents() {
             $(this).removeClass("on");
             $("#arrow").addClass("night");
             $("#landing-container").addClass("night");
+            $(".moon").css("visibility", "visible");
         } else {
             // Turning on lights, exiting night mode.
             $("#arrow").removeClass("night");
             $("#landing-container").removeClass("night");
             $(this).addClass("on");
+            $(".moon").css("visibility", "hidden");
         }
     });
 };
