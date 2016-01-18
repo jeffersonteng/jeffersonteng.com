@@ -15,10 +15,19 @@ Found on CodePen: http://codepen.io/peiche/pen/vonqb
     top: 3vh;
     left: 3vh;
 }
+
 #switch.on {
     background: -moz-linear-gradient(center top , #fff 1%, #e6e6e6 1%, #e6e6e6 50%, #ddd 1%, #ddd 51%, #fbfcfb 1%, #fbfcfb 85%, #bbb 1%, #bbb 86%, #c5c5c5 1%, #d2d2d2 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.01, #fff), color-stop(0.01, #e6e6e6), color-stop(0.5, #e6e6e6), color-stop(0.5, #ddd), color-stop(0.51, #ddd), color-stop(0.51, #fbfcfb), color-stop(0.85, #fbfcfb), color-stop(0.85, #c5c5c5), color-stop(1, #d2d2d2));
     box-shadow: 0 5px 5px #999;
     -moz-box-shadow: 0 5px 5px #999;
     -webkit-box-shadow: 0 5px 5px #999;
+}
+
+@media only screen and (max-device-width: 480px) {
+    #switch {
+        height: 12vh;
+        width: 6vh;
+        min-width: 3vh;
+    }
 }
